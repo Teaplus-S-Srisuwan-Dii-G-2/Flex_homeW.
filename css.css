@@ -1,0 +1,152 @@
+*
+body{
+    margin: 0;
+}
+.main{
+    display: inline;
+    width: 100%;
+}
+
+.header{
+    margin: 15px;
+}
+.inline-flex-container{
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.nav-item{
+    width: 20%;
+    height: 50px;
+    font-size: 30px;
+    font-family: Borealis Regular;
+    padding-top: 13px;
+    text-align: center;
+    background-color: rgba(184, 184, 184, 0.116);
+}
+
+.nav-item:hover{
+    width: 20%;
+    height: 50px;
+    font-size: 30px;
+    font-family: Borealis Regular;
+    padding-top: 13px;
+    text-align: center;
+    background-color: rgba(184, 184, 184, 0.507);
+}
+
+.search-bar{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: flex-end;
+    margin-top: 25px;
+    margin-right: 12.5%;
+}
+
+.card-grop{
+    width: 80%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-flow:row wrap;
+}
+
+.card{
+    width: 31%;
+    border-bottom: rgba(5,5,5, 0.678) 6px solid;
+    border-left: rgba(5, 5, 5, 0.678) 6px solid;
+    border-radius: 6px;
+    margin-right: 1.5%;
+    margin-top: 10px;
+    background-color: white;
+}
+
+img.card-img{
+    width: 96%;
+    margin: 5px 2% 0 2%;
+    border: solid 2px white;
+    border-radius: 6px;
+}
+
+h5.card-title{
+    margin: 30px auto 13px 7px;
+    font-size: 30px;
+    font-family: Borealis Regular;
+}
+
+p.card-text{
+    margin: 7px auto 7px 7px;
+    font-size: 16px;
+    font-family: Borealis Regular;
+}
+
+.star{
+    margin-left: 20px;
+}
+
+.bi-star{
+    color: gold;
+}
+
+.box1{
+    display: flex;
+}
+
+.bi-facebook{
+    color: blue;
+    display: inline;
+    margin-right: 2px;
+}
+
+.bi-twitter{
+    color: cadetblue;
+    display: inline;
+    margin-right: 2px;
+}
+
+.bi-Pinterest{
+    margin-right: 2px;
+}
+
+.bi-google{
+    color: limegreen;
+    display: inline;
+    margin-right: 2px;
+}
+
+.footer{
+    display: flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    height: 60px;
+}
+
+h1{
+    margin-right: 5px ;
+}
+
+h1.info{
+    padding-top: 5px ;
+}
+
+.box1{
+    margin-top: 20px;
+}
+
+.box2{
+    height: 30px;
+    display: inline;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.topic{
+    font-size: 50px;
+    font-family: Borealis Regular;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.flower{
+    background-color: rgba(128, 128, 128, 0.644);
+}
